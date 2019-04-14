@@ -11,6 +11,29 @@ html{
     margin-right: 20px;
 }
 
+img{
+  width: 100%;
+  height: auto;
+  margin-left: 0px;
+  margin-right: -5px;
+}
+
+.no-gutters{
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.contents{
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container{
+  margin-left: 0;
+  margin-right: 0;
+}
+
 /*font-family: 'Flamenco', cursive;
 font-family: 'Cinzel', serif;
 font-family: 'Lato', sans-serif;*/
@@ -20,7 +43,7 @@ font-family: 'Lato', sans-serif;*/
 header{
     width: 100%;
     height: auto;
-    background-color: #FBF1FB;
+    background-color: #E5D4FF;
     position: fixed;
     top: 0;
     z-index: 5;
@@ -88,7 +111,7 @@ ul{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: #FBF1FB;
+        background-color: #E5D4FF;
     }
 
     .mobile a {
@@ -124,7 +147,7 @@ ul{
         flex-direction: column;
         align-items: center;
         width: 100%;
-        background-color: #FBF1FB;
+        background-color: #E5D4FF;
       }
   }
 
@@ -177,3 +200,45 @@ ul{
     transform: rotate(-45deg);
   }
   
+  /*First container*/
+
+  .container{
+    width: 100%;
+    background-color: #FFFCDF;
+  }
+
+  h1{
+    font-family: 'Cinzel', serif;
+    font-size: 6rem;
+    color: #956DFF;
+    padding-top: 9rem;
+  }
+
+  h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 3rem;
+    color: #5080BF;
+  }
+
+  .mandala{
+    width: 100%;
+    padding-top: 5rem;
+    margin-left: -12px;
+    padding-left: 0px;
+  }
+
+  .right{
+    margin-left: -12px;
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #FFFCDF;
+  }
+
+  .left{
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #5080BF
+  }
+
+ 
