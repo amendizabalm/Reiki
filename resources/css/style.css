@@ -7,8 +7,8 @@ html{
 .logo{
     height: 5.5rem;
     width: auto;
-    margin-left: 30px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*font-family: 'Flamenco', cursive;
@@ -62,16 +62,17 @@ ul{
     margin-right: 0px;
 }
 
-.mobile {
+.mobile{
     display: none;
   }
   
-  .mobile-list {
+.mobile-list {
     display: none;
     margin: 0;
     padding: 0;
   }
   
-  .mobile-list li {
+.mobile-list li {
     display: block;
   }
+
